@@ -16,7 +16,7 @@ cfgs <- list(c(-0.5, -1, 1.2), c(-0.25, 0.5, 1), c(0.25, -2, 1.5), c(0.5, 1, 1),
              c(1.3, 1, 1), c(2.2, -0.5, 1), c(2.7, -1.2, 0.8), c(3.7, 0.8, 0.6))
 tab1 <- t(sapply(cfgs, function(cf) {
   p <- cf[1]; mu <- cf[2]; s <- cf[3]; h <- parts_from_hermite(p, mu, s)
-  c(p = p, mu = mu, s = s,
+  c(p = p, mu = mu, s = s, ratio = mu / s,
     P_hermite = h[["P"]], P_quad = P_p(p, mu, s),
     N_hermite = h[["N"]], N_quad = N_p(p, mu, s),
     A_hermite = h[["A"]], A_kummer = abs_kummer(p, mu, s))
