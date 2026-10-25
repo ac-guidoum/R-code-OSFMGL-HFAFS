@@ -2,7 +2,7 @@
 ##  packages.R -- package calls and global settings
 ##
 ##  Supplementary R code for:
-##   Guidoum, A.C.; Bassoudi, M.; Chikr Elmezouar, Z.
+##   Guidoum, A.C.; Bassoudi, M.; Boukhetala, K.
 ##   "One-Sided Fractional Moments of Gaussian Laws via Hermite Functions
 ##    with Applications to Fractional SDEs" 
 ## =============================================================================
